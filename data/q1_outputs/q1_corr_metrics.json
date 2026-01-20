@@ -1,0 +1,12 @@
+{
+  "n_matched_pairs": 2833,
+  "MAE": 21.307762089657608,
+  "RMSE": 25.23074454048209,
+  "Bias(company-station)": 20.157144369925874,
+  "pearson_r": 0.9249516140156822,
+  "pearson_p_value_if_available": 0.0,
+  "linear_fit_y=a*x+b": {
+    "a": 1.0218432277514349,
+    "b": 18.81275222286245
+  }
+}

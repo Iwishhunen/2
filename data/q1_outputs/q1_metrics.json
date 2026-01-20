@@ -1,0 +1,11 @@
+{
+  "total_hours": 2960,
+  "matched_hours": 2833,
+  "coverage": 0.9570945945945946,
+  "mean_n_points_over_matched": 8.13907518531592,
+  "MAE": 21.307762089657608,
+  "RMSE": 25.23074454048209,
+  "Bias(company-station)": 20.157144369925874,
+  "tolerance_minutes": 5,
+  "rule": "if n_points>=3 use median else mean; missing if n_points==0"
+}

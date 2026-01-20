@@ -1,0 +1,42 @@
+{
+  "params": {
+    "winsorize": true,
+    "winsor_q_low": 0.005,
+    "winsor_q_high": 0.995
+  },
+  "A1": {
+    "name": "Appendix1_station_hourly",
+    "rows": 2960,
+    "cols": 8,
+    "missing_rate": {
+      "PM2.5": 0.0,
+      "PM10": 0.0,
+      "CO": 0.0,
+      "NO2": 0.0,
+      "SO2": 0.0,
+      "O3": 0.0
+    }
+  },
+  "A2": {
+    "name": "Appendix2_company_highfreq",
+    "rows": 145571,
+    "cols": 18,
+    "missing_rate": {
+      "PM2.5": 0.0,
+      "PM10": 0.0,
+      "CO": 0.0,
+      "NO2": 0.0,
+      "SO2": 0.0,
+      "O3": 0.0,
+      "WindSpeed": 0.0,
+      "Pressure": 0.0,
+      "Precipitation": 0.0,
+      "Temperature": 0.0,
+      "Humidity": 0.0
+    }
+  },
+  "notes": [
+    "超出物理范围的值已置为 NaN（未删除整行）",
+    "企业点位已生成 hour_floor/hour_ceil/hour_nearest 及对应 delta_*_min，方便做 ±5min 匹配"
+  ]
+}
